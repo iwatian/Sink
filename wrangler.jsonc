@@ -2,6 +2,9 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "sink",
   "main": ".output/server/index.mjs",
+  "vars": {
+    "NUXT_HOME_URL": "https://www.watian.com.cn/links/duanwangzhi/"
+  },
   "assets": {
     "binding": "ASSETS",
     "directory": ".output/public",
